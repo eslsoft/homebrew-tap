@@ -1,14 +1,14 @@
 cask "lession" do
-  version "1.1.1"
+  version "1.1.2"
 
   on_arm do
     url "https://github.com/eslsoft/lession/releases/download/v#{version}/Lession-#{version}-arm64.dmg"
-    sha256 "aa4924a2d8f9d11315805491dfd494330f1256dba29526f48d1d789eb1d25167"
+    sha256 "a5d6ba9230df862360c83fc0c57207c695724b56013ac4e8cc5cc2f91224cb8f"
   end
 
   on_intel do
     url "https://github.com/eslsoft/lession/releases/download/v#{version}/Lession-#{version}-x64.dmg"
-    sha256 "f819018c9a8934c6e0e2845680ae3522cf543653c63cbb9ee550dd7436c025c5"
+    sha256 "fef215359055db3838746536d3ac4a2e241b970a6f43e1a1223306e149388f00"
   end
 
   name "Lession"
