@@ -2,7 +2,7 @@ name: Update Cask
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 * * * *"
   repository_dispatch:
     types: [update-cask]
   workflow_dispatch:
